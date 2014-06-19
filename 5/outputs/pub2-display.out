@@ -1,0 +1,584 @@
+% ruby sim.rb display pub2.in 
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 2 entering Glenmont
+Red
+                   Glenmont            [Red 2]   
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 2 leaving Glenmont
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 4 entering Glenmont
+Red
+                   Glenmont            [Red 4]   
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 2 entering Silver Spring
+Red
+                   Glenmont            [Red 4]   
+              Silver Spring            [Red 2]   
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 4 leaving Glenmont
+Red
+                   Glenmont                      
+              Silver Spring            [Red 2]   
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 1 entering Glenmont
+Red
+                   Glenmont            [Red 1]   
+              Silver Spring            [Red 2]   
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 2 leaving Silver Spring
+Red
+                   Glenmont            [Red 1]   
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 2 entering Union Station
+Red
+                   Glenmont            [Red 1]   
+              Silver Spring                      
+              Union Station            [Red 2]   
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 4 entering Silver Spring
+Red
+                   Glenmont            [Red 1]   
+              Silver Spring            [Red 4]   
+              Union Station            [Red 2]   
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 1 leaving Glenmont
+Red
+                   Glenmont                      
+              Silver Spring            [Red 4]   
+              Union Station            [Red 2]   
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 3 entering Glenmont
+Red
+                   Glenmont            [Red 3]   
+              Silver Spring            [Red 4]   
+              Union Station            [Red 2]   
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 2 leaving Union Station
+Red
+                   Glenmont            [Red 3]   
+              Silver Spring            [Red 4]   
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 4 leaving Silver Spring
+Red
+                   Glenmont            [Red 3]   
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 1 entering Silver Spring
+Red
+                   Glenmont            [Red 3]   
+              Silver Spring            [Red 1]   
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 2 entering Bethesda
+Red
+                   Glenmont            [Red 3]   
+              Silver Spring            [Red 1]   
+              Union Station                      
+                   Bethesda            [Red 2]   
+                Shady Grove                      
+
+Train Red 4 entering Union Station
+Red
+                   Glenmont            [Red 3]   
+              Silver Spring            [Red 1]   
+              Union Station            [Red 4]   
+                   Bethesda            [Red 2]   
+                Shady Grove                      
+
+Train Red 1 leaving Silver Spring
+Red
+                   Glenmont            [Red 3]   
+              Silver Spring                      
+              Union Station            [Red 4]   
+                   Bethesda            [Red 2]   
+                Shady Grove                      
+
+Train Red 3 leaving Glenmont
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 4]   
+                   Bethesda            [Red 2]   
+                Shady Grove                      
+
+Train Red 2 leaving Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 4]   
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 4 leaving Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 1 entering Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 1]   
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 3 entering Silver Spring
+Red
+                   Glenmont                      
+              Silver Spring            [Red 3]   
+              Union Station            [Red 1]   
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 2 entering Shady Grove
+Red
+                   Glenmont                      
+              Silver Spring            [Red 3]   
+              Union Station            [Red 1]   
+                   Bethesda                      
+                Shady Grove            [Red 2]   
+
+Train Red 4 entering Bethesda
+Red
+                   Glenmont                      
+              Silver Spring            [Red 3]   
+              Union Station            [Red 1]   
+                   Bethesda            [Red 4]   
+                Shady Grove            [Red 2]   
+
+Train Red 1 leaving Union Station
+Red
+                   Glenmont                      
+              Silver Spring            [Red 3]   
+              Union Station                      
+                   Bethesda            [Red 4]   
+                Shady Grove            [Red 2]   
+
+Train Red 3 leaving Silver Spring
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda            [Red 4]   
+                Shady Grove            [Red 2]   
+
+Train Red 2 leaving Shady Grove
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda            [Red 4]   
+                Shady Grove                      
+
+Train Red 4 leaving Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 1 entering Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda            [Red 1]   
+                Shady Grove                      
+
+Train Red 3 entering Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 3]   
+                   Bethesda            [Red 1]   
+                Shady Grove                      
+
+Train Red 4 entering Shady Grove
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 3]   
+                   Bethesda            [Red 1]   
+                Shady Grove            [Red 4]   
+
+Train Red 1 leaving Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 3]   
+                   Bethesda                      
+                Shady Grove            [Red 4]   
+
+Train Red 2 entering Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 3]   
+                   Bethesda            [Red 2]   
+                Shady Grove            [Red 4]   
+
+Train Red 3 leaving Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda            [Red 2]   
+                Shady Grove            [Red 4]   
+
+Train Red 4 leaving Shady Grove
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda            [Red 2]   
+                Shady Grove                      
+
+Train Red 1 entering Shady Grove
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda            [Red 2]   
+                Shady Grove            [Red 1]   
+
+Train Red 2 leaving Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove            [Red 1]   
+
+Train Red 4 entering Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda            [Red 4]   
+                Shady Grove            [Red 1]   
+
+Train Red 1 leaving Shady Grove
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda            [Red 4]   
+                Shady Grove                      
+
+Train Red 2 entering Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 2]   
+                   Bethesda            [Red 4]   
+                Shady Grove                      
+
+Train Red 4 leaving Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 2]   
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 1 entering Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 2]   
+                   Bethesda            [Red 1]   
+                Shady Grove                      
+
+Train Red 2 leaving Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda            [Red 1]   
+                Shady Grove                      
+
+Train Red 2 entering Silver Spring
+Red
+                   Glenmont                      
+              Silver Spring            [Red 2]   
+              Union Station                      
+                   Bethesda            [Red 1]   
+                Shady Grove                      
+
+Train Red 4 entering Union Station
+Red
+                   Glenmont                      
+              Silver Spring            [Red 2]   
+              Union Station            [Red 4]   
+                   Bethesda            [Red 1]   
+                Shady Grove                      
+
+Train Red 1 leaving Bethesda
+Red
+                   Glenmont                      
+              Silver Spring            [Red 2]   
+              Union Station            [Red 4]   
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 3 entering Bethesda
+Red
+                   Glenmont                      
+              Silver Spring            [Red 2]   
+              Union Station            [Red 4]   
+                   Bethesda            [Red 3]   
+                Shady Grove                      
+
+Train Red 2 leaving Silver Spring
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 4]   
+                   Bethesda            [Red 3]   
+                Shady Grove                      
+
+Train Red 4 leaving Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda            [Red 3]   
+                Shady Grove                      
+
+Train Red 1 entering Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 1]   
+                   Bethesda            [Red 3]   
+                Shady Grove                      
+
+Train Red 2 entering Glenmont
+Red
+                   Glenmont            [Red 2]   
+              Silver Spring                      
+              Union Station            [Red 1]   
+                   Bethesda            [Red 3]   
+                Shady Grove                      
+
+Train Red 4 entering Silver Spring
+Red
+                   Glenmont            [Red 2]   
+              Silver Spring            [Red 4]   
+              Union Station            [Red 1]   
+                   Bethesda            [Red 3]   
+                Shady Grove                      
+
+Train Red 1 leaving Union Station
+Red
+                   Glenmont            [Red 2]   
+              Silver Spring            [Red 4]   
+              Union Station                      
+                   Bethesda            [Red 3]   
+                Shady Grove                      
+
+Train Red 3 leaving Bethesda
+Red
+                   Glenmont            [Red 2]   
+              Silver Spring            [Red 4]   
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 2 leaving Glenmont
+Red
+                   Glenmont                      
+              Silver Spring            [Red 4]   
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 4 leaving Silver Spring
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 1 entering Silver Spring
+Red
+                   Glenmont                      
+              Silver Spring            [Red 1]   
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 3 entering Shady Grove
+Red
+                   Glenmont                      
+              Silver Spring            [Red 1]   
+              Union Station                      
+                   Bethesda                      
+                Shady Grove            [Red 3]   
+
+Train Red 4 entering Glenmont
+Red
+                   Glenmont            [Red 4]   
+              Silver Spring            [Red 1]   
+              Union Station                      
+                   Bethesda                      
+                Shady Grove            [Red 3]   
+
+Train Red 1 leaving Silver Spring
+Red
+                   Glenmont            [Red 4]   
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove            [Red 3]   
+
+Train Red 3 leaving Shady Grove
+Red
+                   Glenmont            [Red 4]   
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 4 leaving Glenmont
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 1 entering Glenmont
+Red
+                   Glenmont            [Red 1]   
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 3 entering Bethesda
+Red
+                   Glenmont            [Red 1]   
+              Silver Spring                      
+              Union Station                      
+                   Bethesda            [Red 3]   
+                Shady Grove                      
+
+Train Red 1 leaving Glenmont
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda            [Red 3]   
+                Shady Grove                      
+
+Train Red 3 leaving Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 3 entering Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 3]   
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 3 leaving Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 3 entering Silver Spring
+Red
+                   Glenmont                      
+              Silver Spring            [Red 3]   
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 3 leaving Silver Spring
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 3 entering Glenmont
+Red
+                   Glenmont            [Red 3]   
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+
+Train Red 3 leaving Glenmont
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda                      
+                Shady Grove                      
+

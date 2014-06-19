@@ -1,0 +1,6 @@
+% ruby sim.rb verify pub7.in 
+% ERROR: Red 1 leaving station Bethesda before entering
+% ERROR: Train Red 1 jumping to station Glenmont
+% ERROR: Red 1 left path at Silver Spring
+% ERROR: Red 1 failed to make at least one round trip
+INVALID

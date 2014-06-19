@@ -1,0 +1,5 @@
+Images in url(s): [http://www.cs.umd.edu/class/summer2010/cmsc132/homeworks/ImageFinder/documents/Set1/]
+http://www.cs.umd.edu/class/spring2009/cmsc132/homeworks/ImageFinder/documents/Set1/Set1d.png
+http://www.cs.umd.edu/class/summer2010/cmsc132/homeworks/ImageFinder/documents/Set1/Set1a.jpg
+http://www.cs.umd.edu/class/summer2010/cmsc132/homeworks/ImageFinder/documents/Set1/Set1b.jpg
+http://www.cs.umd.edu/class/summer2010/cmsc132/homeworks/ImageFinder/documents/Set1/Set1c.jpg

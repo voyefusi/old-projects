@@ -1,0 +1,73 @@
+%
+% pub4 - single line w/ multiple trains, multiple passengers
+%
+=== Lines ===
+Red, Glenmont, Silver Spring, Union Station, Bethesda, Shady Grove
+=== Trains ===
+Red=4
+=== Passengers ===
+Amy, Silver Spring, Bethesda
+Ann, Glenmont, Bethesda
+Art, Union Station, Silver Spring
+Aaron, Bethesda, Glenmont
+=== Output ===
+Train Red 1 entering Glenmont
+Ann boarding train Red 1 at Glenmont
+Train Red 1 leaving Glenmont
+Train Red 3 entering Glenmont
+Train Red 1 entering Silver Spring
+Amy boarding train Red 1 at Silver Spring
+Train Red 3 leaving Glenmont
+Train Red 2 entering Glenmont
+Train Red 1 leaving Silver Spring
+Train Red 1 entering Union Station
+Art boarding train Red 1 at Union Station
+Train Red 3 entering Silver Spring
+Train Red 2 leaving Glenmont
+Train Red 4 entering Glenmont
+Train Red 3 leaving Silver Spring
+Train Red 2 entering Silver Spring
+Train Red 1 leaving Union Station
+Train Red 3 entering Union Station
+Train Red 1 entering Bethesda
+Aaron boarding train Red 1 at Bethesda
+Amy leaving train Red 1 at Bethesda
+Ann leaving train Red 1 at Bethesda
+Train Red 2 leaving Silver Spring
+Train Red 4 leaving Glenmont
+Train Red 3 leaving Union Station
+Train Red 2 entering Union Station
+Train Red 1 leaving Bethesda
+Train Red 4 entering Silver Spring
+Train Red 3 entering Bethesda
+Train Red 1 entering Shady Grove
+Train Red 2 leaving Union Station
+Train Red 4 leaving Silver Spring
+Train Red 3 leaving Bethesda
+Train Red 2 entering Bethesda
+Train Red 4 entering Union Station
+Train Red 1 leaving Shady Grove
+Train Red 3 entering Shady Grove
+Train Red 2 leaving Bethesda
+Train Red 1 entering Bethesda
+Train Red 4 leaving Union Station
+Train Red 3 leaving Shady Grove
+Train Red 2 entering Shady Grove
+Train Red 1 leaving Bethesda
+Train Red 3 entering Bethesda
+Train Red 1 entering Union Station
+Train Red 2 leaving Shady Grove
+Train Red 3 leaving Bethesda
+Train Red 2 entering Bethesda
+Train Red 1 leaving Union Station
+Train Red 1 entering Silver Spring
+Art leaving train Red 1 at Silver Spring
+Train Red 3 entering Union Station
+Train Red 2 leaving Bethesda
+Train Red 4 entering Bethesda
+Train Red 1 leaving Silver Spring
+Train Red 1 entering Glenmont
+Aaron leaving train Red 1 at Glenmont
+Train Red 3 leaving Union Station
+Train Red 2 entering Union Station
+

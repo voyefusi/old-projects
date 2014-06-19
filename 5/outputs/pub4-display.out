@@ -1,0 +1,480 @@
+% ruby sim.rb display pub4.in 
+Red
+                   Glenmont       Ann            
+              Silver Spring       Amy            
+              Union Station       Art            
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 1 entering Glenmont
+Red
+                   Glenmont       Ann  [Red 1]   
+              Silver Spring       Amy            
+              Union Station       Art            
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Ann boarding train Red 1 at Glenmont
+Red
+                   Glenmont            [Red 1 Ann]
+              Silver Spring       Amy            
+              Union Station       Art            
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 1 leaving Glenmont
+Red
+                   Glenmont                      
+              Silver Spring       Amy            
+              Union Station       Art            
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 3 entering Glenmont
+Red
+                   Glenmont            [Red 3]   
+              Silver Spring       Amy            
+              Union Station       Art            
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 1 entering Silver Spring
+Red
+                   Glenmont            [Red 3]   
+              Silver Spring       Amy  [Red 1 Ann]
+              Union Station       Art            
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Amy boarding train Red 1 at Silver Spring
+Red
+                   Glenmont            [Red 3]   
+              Silver Spring            [Red 1 Amy Ann]
+              Union Station       Art            
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 3 leaving Glenmont
+Red
+                   Glenmont                      
+              Silver Spring            [Red 1 Amy Ann]
+              Union Station       Art            
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 2 entering Glenmont
+Red
+                   Glenmont            [Red 2]   
+              Silver Spring            [Red 1 Amy Ann]
+              Union Station       Art            
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 1 leaving Silver Spring
+Red
+                   Glenmont            [Red 2]   
+              Silver Spring                      
+              Union Station       Art            
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 1 entering Union Station
+Red
+                   Glenmont            [Red 2]   
+              Silver Spring                      
+              Union Station       Art  [Red 1 Amy Ann]
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Art boarding train Red 1 at Union Station
+Red
+                   Glenmont            [Red 2]   
+              Silver Spring                      
+              Union Station            [Red 1 Amy Ann Art]
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 3 entering Silver Spring
+Red
+                   Glenmont            [Red 2]   
+              Silver Spring            [Red 3]   
+              Union Station            [Red 1 Amy Ann Art]
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 2 leaving Glenmont
+Red
+                   Glenmont                      
+              Silver Spring            [Red 3]   
+              Union Station            [Red 1 Amy Ann Art]
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 4 entering Glenmont
+Red
+                   Glenmont            [Red 4]   
+              Silver Spring            [Red 3]   
+              Union Station            [Red 1 Amy Ann Art]
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 3 leaving Silver Spring
+Red
+                   Glenmont            [Red 4]   
+              Silver Spring                      
+              Union Station            [Red 1 Amy Ann Art]
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 2 entering Silver Spring
+Red
+                   Glenmont            [Red 4]   
+              Silver Spring            [Red 2]   
+              Union Station            [Red 1 Amy Ann Art]
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 1 leaving Union Station
+Red
+                   Glenmont            [Red 4]   
+              Silver Spring            [Red 2]   
+              Union Station                      
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 3 entering Union Station
+Red
+                   Glenmont            [Red 4]   
+              Silver Spring            [Red 2]   
+              Union Station            [Red 3]   
+                   Bethesda     Aaron            
+                Shady Grove                      
+
+Train Red 1 entering Bethesda
+Red
+                   Glenmont            [Red 4]   
+              Silver Spring            [Red 2]   
+              Union Station            [Red 3]   
+                   Bethesda     Aaron  [Red 1 Amy Ann Art]
+                Shady Grove                      
+
+Aaron boarding train Red 1 at Bethesda
+Red
+                   Glenmont            [Red 4]   
+              Silver Spring            [Red 2]   
+              Union Station            [Red 3]   
+                   Bethesda            [Red 1 Aaron Amy Ann Art]
+                Shady Grove                      
+
+Amy leaving train Red 1 at Bethesda
+Red
+                   Glenmont            [Red 4]   
+              Silver Spring            [Red 2]   
+              Union Station            [Red 3]   
+                   Bethesda       Amy  [Red 1 Aaron Ann Art]
+                Shady Grove                      
+
+Ann leaving train Red 1 at Bethesda
+Red
+                   Glenmont            [Red 4]   
+              Silver Spring            [Red 2]   
+              Union Station            [Red 3]   
+                   Bethesda   Amy Ann  [Red 1 Aaron Art]
+                Shady Grove                      
+
+Train Red 2 leaving Silver Spring
+Red
+                   Glenmont            [Red 4]   
+              Silver Spring                      
+              Union Station            [Red 3]   
+                   Bethesda   Amy Ann  [Red 1 Aaron Art]
+                Shady Grove                      
+
+Train Red 4 leaving Glenmont
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 3]   
+                   Bethesda   Amy Ann  [Red 1 Aaron Art]
+                Shady Grove                      
+
+Train Red 3 leaving Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda   Amy Ann  [Red 1 Aaron Art]
+                Shady Grove                      
+
+Train Red 2 entering Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 2]   
+                   Bethesda   Amy Ann  [Red 1 Aaron Art]
+                Shady Grove                      
+
+Train Red 1 leaving Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 2]   
+                   Bethesda   Amy Ann            
+                Shady Grove                      
+
+Train Red 4 entering Silver Spring
+Red
+                   Glenmont                      
+              Silver Spring            [Red 4]   
+              Union Station            [Red 2]   
+                   Bethesda   Amy Ann            
+                Shady Grove                      
+
+Train Red 3 entering Bethesda
+Red
+                   Glenmont                      
+              Silver Spring            [Red 4]   
+              Union Station            [Red 2]   
+                   Bethesda   Amy Ann  [Red 3]   
+                Shady Grove                      
+
+Train Red 1 entering Shady Grove
+Red
+                   Glenmont                      
+              Silver Spring            [Red 4]   
+              Union Station            [Red 2]   
+                   Bethesda   Amy Ann  [Red 3]   
+                Shady Grove            [Red 1 Aaron Art]
+
+Train Red 2 leaving Union Station
+Red
+                   Glenmont                      
+              Silver Spring            [Red 4]   
+              Union Station                      
+                   Bethesda   Amy Ann  [Red 3]   
+                Shady Grove            [Red 1 Aaron Art]
+
+Train Red 4 leaving Silver Spring
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda   Amy Ann  [Red 3]   
+                Shady Grove            [Red 1 Aaron Art]
+
+Train Red 3 leaving Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda   Amy Ann            
+                Shady Grove            [Red 1 Aaron Art]
+
+Train Red 2 entering Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda   Amy Ann  [Red 2]   
+                Shady Grove            [Red 1 Aaron Art]
+
+Train Red 4 entering Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 4]   
+                   Bethesda   Amy Ann  [Red 2]   
+                Shady Grove            [Red 1 Aaron Art]
+
+Train Red 1 leaving Shady Grove
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 4]   
+                   Bethesda   Amy Ann  [Red 2]   
+                Shady Grove                      
+
+Train Red 3 entering Shady Grove
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 4]   
+                   Bethesda   Amy Ann  [Red 2]   
+                Shady Grove            [Red 3]   
+
+Train Red 2 leaving Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 4]   
+                   Bethesda   Amy Ann            
+                Shady Grove            [Red 3]   
+
+Train Red 1 entering Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 4]   
+                   Bethesda   Amy Ann  [Red 1 Aaron Art]
+                Shady Grove            [Red 3]   
+
+Train Red 4 leaving Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda   Amy Ann  [Red 1 Aaron Art]
+                Shady Grove            [Red 3]   
+
+Train Red 3 leaving Shady Grove
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda   Amy Ann  [Red 1 Aaron Art]
+                Shady Grove                      
+
+Train Red 2 entering Shady Grove
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda   Amy Ann  [Red 1 Aaron Art]
+                Shady Grove            [Red 2]   
+
+Train Red 1 leaving Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda   Amy Ann            
+                Shady Grove            [Red 2]   
+
+Train Red 3 entering Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda   Amy Ann  [Red 3]   
+                Shady Grove            [Red 2]   
+
+Train Red 1 entering Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 1 Aaron Art]
+                   Bethesda   Amy Ann  [Red 3]   
+                Shady Grove            [Red 2]   
+
+Train Red 2 leaving Shady Grove
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 1 Aaron Art]
+                   Bethesda   Amy Ann  [Red 3]   
+                Shady Grove                      
+
+Train Red 3 leaving Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 1 Aaron Art]
+                   Bethesda   Amy Ann            
+                Shady Grove                      
+
+Train Red 2 entering Bethesda
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station            [Red 1 Aaron Art]
+                   Bethesda   Amy Ann  [Red 2]   
+                Shady Grove                      
+
+Train Red 1 leaving Union Station
+Red
+                   Glenmont                      
+              Silver Spring                      
+              Union Station                      
+                   Bethesda   Amy Ann  [Red 2]   
+                Shady Grove                      
+
+Train Red 1 entering Silver Spring
+Red
+                   Glenmont                      
+              Silver Spring            [Red 1 Aaron Art]
+              Union Station                      
+                   Bethesda   Amy Ann  [Red 2]   
+                Shady Grove                      
+
+Art leaving train Red 1 at Silver Spring
+Red
+                   Glenmont                      
+              Silver Spring       Art  [Red 1 Aaron]
+              Union Station                      
+                   Bethesda   Amy Ann  [Red 2]   
+                Shady Grove                      
+
+Train Red 3 entering Union Station
+Red
+                   Glenmont                      
+              Silver Spring       Art  [Red 1 Aaron]
+              Union Station            [Red 3]   
+                   Bethesda   Amy Ann  [Red 2]   
+                Shady Grove                      
+
+Train Red 2 leaving Bethesda
+Red
+                   Glenmont                      
+              Silver Spring       Art  [Red 1 Aaron]
+              Union Station            [Red 3]   
+                   Bethesda   Amy Ann            
+                Shady Grove                      
+
+Train Red 4 entering Bethesda
+Red
+                   Glenmont                      
+              Silver Spring       Art  [Red 1 Aaron]
+              Union Station            [Red 3]   
+                   Bethesda   Amy Ann  [Red 4]   
+                Shady Grove                      
+
+Train Red 1 leaving Silver Spring
+Red
+                   Glenmont                      
+              Silver Spring       Art            
+              Union Station            [Red 3]   
+                   Bethesda   Amy Ann  [Red 4]   
+                Shady Grove                      
+
+Train Red 1 entering Glenmont
+Red
+                   Glenmont            [Red 1 Aaron]
+              Silver Spring       Art            
+              Union Station            [Red 3]   
+                   Bethesda   Amy Ann  [Red 4]   
+                Shady Grove                      
+
+Aaron leaving train Red 1 at Glenmont
+Red
+                   Glenmont     Aaron  [Red 1]   
+              Silver Spring       Art            
+              Union Station            [Red 3]   
+                   Bethesda   Amy Ann  [Red 4]   
+                Shady Grove                      
+
+Train Red 3 leaving Union Station
+Red
+                   Glenmont     Aaron  [Red 1]   
+              Silver Spring       Art            
+              Union Station                      
+                   Bethesda   Amy Ann  [Red 4]   
+                Shady Grove                      
+
+Train Red 2 entering Union Station
+Red
+                   Glenmont     Aaron  [Red 1]   
+              Silver Spring       Art            
+              Union Station            [Red 2]   
+                   Bethesda   Amy Ann  [Red 4]   
+                Shady Grove                      
+

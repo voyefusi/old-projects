@@ -1,0 +1,5 @@
+% ruby sim.rb verify pub8.in 
+% ERROR: Red 1 entering occupied station Silver Spring
+% ERROR: Red 2 entering occupied station Silver Spring
+% ERROR: Red 3 entering occupied station Union Station
+INVALID

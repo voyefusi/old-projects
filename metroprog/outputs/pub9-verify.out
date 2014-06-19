@@ -1,0 +1,4 @@
+% ruby sim.rb verify pub9.in 
+% ERROR: Ann illegally boarding Red 1 at station Glenmont
+% ERROR: Ann illegally leaving Red 1 at station Bethesda
+INVALID

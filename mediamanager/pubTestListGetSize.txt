@@ -1,0 +1,4 @@
+Size: 7
+First Element: Albert
+Last Element: Tom
+IsEmpty: false

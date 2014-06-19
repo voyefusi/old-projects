@@ -1,0 +1,38 @@
+%
+% pub3 - single line w/ single train, multiple passengers
+%
+=== Lines ===
+Red, Glenmont, Silver Spring, Union Station, Bethesda, Shady Grove
+=== Trains ===
+Red=1
+=== Passengers ===
+Amy, Silver Spring, Bethesda
+Ann, Glenmont, Bethesda
+Art, Union Station, Silver Spring
+Aaron, Bethesda, Glenmont
+=== Output ===
+Train Red 1 entering Glenmont
+Ann boarding train Red 1 at Glenmont
+Train Red 1 leaving Glenmont
+Train Red 1 entering Silver Spring
+Amy boarding train Red 1 at Silver Spring
+Train Red 1 leaving Silver Spring
+Train Red 1 entering Union Station
+Art boarding train Red 1 at Union Station
+Train Red 1 leaving Union Station
+Train Red 1 entering Bethesda
+Aaron boarding train Red 1 at Bethesda
+Amy leaving train Red 1 at Bethesda
+Ann leaving train Red 1 at Bethesda
+Train Red 1 leaving Bethesda
+Train Red 1 entering Shady Grove
+Train Red 1 leaving Shady Grove
+Train Red 1 entering Bethesda
+Train Red 1 leaving Bethesda
+Train Red 1 entering Union Station
+Train Red 1 leaving Union Station
+Train Red 1 entering Silver Spring
+Art leaving train Red 1 at Silver Spring
+Train Red 1 leaving Silver Spring
+Train Red 1 entering Glenmont
+Aaron leaving train Red 1 at Glenmont
